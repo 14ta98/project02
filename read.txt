@@ -1,0 +1,46 @@
+jQueryとBootstrapを用いたTo Do List。
+
+
+■HTML
+・stylesshetでBoostrap,jQuery,cssを読み込む。
+・datepickerをidづけすることによりjQueryでスケジュールスケジュールを呼び出す。
+・todo.addでタスクを追加。
+・jquery.min.jsを読み込み、動的動きを追加。
+・  <script type="text/javascript">要素内にto do listのidを定義。
+■CSS
+
+・important要素で優先順位を記述。
+・min-heightにより最小の高さを定義。（レスポンスを意識して）
+・transparentで透明度を記述。
+［コーディングルール］
+
+
+CSSの優先度を記述。
+位置情報系＝position, top, right, z-index, display, float
+サイズ＝width, height, padding, margin
+文字系＝font, line-height, letter-spacing, color- text-align
+背景＝background, border等
+その他＝animation, transition等
+
+
+
+■JS
+・getItemでto do dataを取得
+・functionでそれぞれのデフォルト値を定義
+・add,removeを定義
+
+
+
+
+■全体
+・project02フォルダ内をaudio,font,imagesなどフォルダ分け、整理。
+・Jsのプログラムなど全く知識がなかったため、ドットインストール、マガストアをみながら記述した。
+・project03では自分のオリジナル要素を入れて構築していきたい。
+
+
+
+■疑問
+・ウホ、ウホウホボタンそれぞれに違う音源を記述するには？
+・ローカルストレージに実際に保存されているのか？
+・background-imageをbody,header,h1に記述していいのか？
+・新着投稿を追加するとbackground-imageが重なる現象になってしまう。改善方法は？
